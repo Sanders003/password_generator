@@ -33,11 +33,13 @@ while(True):
 password = []
 
 for i in range(length):
-    # Picking a random character from our character list
+	# Picking a random character from our character list
 	randomchar = ra.choice(characterList)
 	
-    # appending a random character to password
+	# Appending a random character to password
 	password.append(randomchar)
 
 # printing password as a string
 print("The random password is " + "".join(password))
+
+#comment your suggestions from here
